@@ -6,6 +6,7 @@ import logo from './logo.svg';
 import About from './components/about'
 import Kontak from './components/kontak';
 import Footer from './components/footer';
+import Program from './components/program'
 
 const App = () => {
   return (
@@ -15,8 +16,8 @@ const App = () => {
       <Card/>
       <Kontak/>
       <About/>
+       <Program />
       <Footer/>
-      
     </div>
   );
 }

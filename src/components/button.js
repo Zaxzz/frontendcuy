@@ -1,5 +1,6 @@
 const Button = () => {
     return (
+      <div>
         <div className="text-black flex-none text-center bg-green">
           <ul className="menu menu-horizontal p-0">
             <li><a>Beranda</a></li>
@@ -19,6 +20,7 @@ const Button = () => {
               </ul>
             </li>
           </ul>
+        </div>
           <div className="hero min-h-screen bg-base-200">
           <div className="hero min-h-screen" style={{ backgroundImage: `url("https://placeimg.com/1000/800/arch")` }}>
   <div className="hero-overlay bg-opacity-60"></div>
