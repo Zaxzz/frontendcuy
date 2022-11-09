@@ -1,23 +1,25 @@
 import React from 'react';
 import Button from './components/button';
-import Card from './components/card';
 import Navbar from './components/navbar';
 import logo from './logo.svg';
 import About from './components/about'
 import Kontak from './components/kontak';
 import Footer from './components/footer';
 import Program from './components/program'
+import Profil from './components/profil';
+import Galeri from './components/galeri';
+import Info from './components/info';
 
 const App = () => {
   return (
-    <div>
+    <div className=' object-cover text-cover'>
       <Navbar/>
       <Button/>
-      <Card/>
+      <Profil/>
+      <Program/>
+      <Galeri/>
+      <Info/>
       <Kontak/>
-      <About/>
-       <Program />
-      <Footer/>
     </div>
   );
 }

@@ -4,13 +4,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'green': '#7AFF6F',
+        'green': '#79E6AE',
         'grey' : '#D8D7D7'
     },
     borderRadius: {
       'lg': '40px',
     },
+    fontSize: {
+      base: '19px',
   },
+},
 },
   plugins: [require("daisyui")],
 }

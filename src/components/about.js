@@ -6,15 +6,8 @@ const About = () => {
     <div>
 </div>
 </div>
-<div className="toast toast-center">
-  <div className="bg-white hover:bg-green alert alert-info">
-    <div>
-      <span>GW UDAH LELAH</span>
-    </div>
   </div>
-  </div>
-  
-  </div>
+ 
 
     );
 }
