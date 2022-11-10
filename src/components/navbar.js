@@ -1,15 +1,15 @@
-import { Link } from "react-router-dom";
+
 import PPLG from "./asset/PPLG.png"
 
 const Navbar = () => {
     return (
-      <div>
+      <div id="navbar">
         <div className="navbar bg-white">
   <div className="flex-1">
     <img className="btn bg-white border-none py-3 hover:bg-transparent" src={PPLG}/>
     <div className="flex  flex-col">
     <div className="btn hover:bg-transparent bg-white border-none font-bold text-black text-base">PENGEMBANGAN PERANGKAT LUNAK dan GIM</div>
-    <div className="ml-4 ">Leading and Advanced Majors</div>
+    <div className="ml-4 text-black ">Leading and Advanced Majors</div>
     </div>
   </div>
   <div className="form-control">
@@ -21,27 +21,8 @@ const Navbar = () => {
   </div>
 </div>
 </div>
-  <div className="text-black flex-none text-center bg-green">
-          <ul className="menu menu-horizontal p-0">
-            <li><a>Beranda</a></li>
-            <li><a>Profil</a></li>
-            <li><a>Program</a></li>
-            <li><a>About</a></li>
-            <li><a>Galeri</a></li>
-            <li><a>Kontak</a></li>
-            <li tabIndex={0}>
-              <a>
-                Info
-                <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
-              </a>
-              <ul className="p-2 bg-green">
-                <li><a>Submenu 1</a></li>
-                <li><a>Submenu 2</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        </div>
+
+ </div>
     );
 }
 

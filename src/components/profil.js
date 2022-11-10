@@ -9,6 +9,9 @@ const Profil = () => {
     <h1 className="text-5xl ">
       Profil
     </h1>
+    <h2 className="mb-2">
+      Berisi tentang apa itu PPLG
+    </h2>
   </div>
         <div className="px-14 hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">

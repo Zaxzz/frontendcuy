@@ -3,7 +3,7 @@ import FB from "./asset/fb.png"
 import TW from "./asset/tw.png"
 import IG from "./asset/ig.png"
 import YT from "./asset/yt.png"
-import React from "react"
+import { Link } from "react-scroll"
 
 const Kontak = () => {
     return (
@@ -11,13 +11,13 @@ const Kontak = () => {
        <div>
             <div>
             <h1 className="pt-15 text-5xl text-center text-black py-5 font-bold">Kontak Kami</h1>
-                <div className="hero min-h-screen bg-green bg-opacity-80">
+                <div className="hero min-h-screen bg-green bg-opacity-100">
                 <div className="hero min-h-screen">
     
     <div class="flex space-x-80">
     <div className="hero-content flex-col lg:flex-row">
     <div className="text-center lg:text-left">
-      <img src={PPLG}/>
+     <Link to="landing" smooth={true} duration={1000}><img className="btn bg-green border-none hover:bg-transparent bg-opacity-40" src={PPLG}/></Link>
       <h1 className="pt-10 text-black font-bold">Alamat:</h1>
       <h1 className="pt1 text-black font-bold">Jl. Ahmad Yani, South Kramat, Magelang Utara</h1>
       <h3 className="pt-5 text-black font-bold">Email:</h3>
@@ -42,7 +42,7 @@ const Kontak = () => {
     </div>
 </div>
 
-    <div className="card flex-shrink-0 w-full max-w-lg shadow-2xl bg-white">
+    <div className="shadow-none card flex-shrink-0 w-full max-w-lg shadow-2xl bg-white">
       <div className="card-body">
       <div className="form-control">
           <label className="hero-content font-bold text-3xl text-black text-center label">Pesan
@@ -63,7 +63,7 @@ const Kontak = () => {
 
         <div className="form-control mt-3 box-border h-10 w-28">
           <div class="absolute bottom-3 right-12 h-16 w-16">
-          <button className="btn bg-black">Submit</button>
+          <button className="btn bg-black text-white">Submit</button>
           </div>
         </div>
       </div>

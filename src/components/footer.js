@@ -4,6 +4,7 @@ import FB from "./asset/fb.png"
 import IG from "./asset/ig.png"
 import TW from "./asset/tw.png"
 import YT from "./asset/yt.png"
+import { Link } from "react-scroll";
 
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
         <div id="footer">
             <footer className="footer p-10 bg-green text-black">
   <div>
-    <span className="footer-title">Services</span> 
+    <span className="footer-title text-black text-opacity-100">Services</span> 
     <a className="link link-hover">Branding</a> 
     <a className="link link-hover">Design</a> 
     <a className="link link-hover">Marketing</a> 
@@ -33,7 +34,7 @@ const Footer = () => {
 </footer> 
 <footer className="footer px-10 py-4 border-t bg-white text-black">
   <div className="items-center grid-flow-col">
-   <img className="btn bg-white border-none py-3 hover:bg-transparent" src={PPLG}/>
+    <Link to="landing" smooth={true} duration={1000}><img className="btn bg-white border-none py-3 hover:bg-transparent" src={PPLG}/></Link>
     <p className="font-bold">TIM PPLG <br/>Kelompok 2</p>
   </div> 
   <div className="md:place-self-center md:justify-self-end">

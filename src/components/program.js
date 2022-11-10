@@ -22,23 +22,23 @@ const Program = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
 {/* kotak*/}
 <div className="flex space-x-36 px-11">
-        <div className="card w-100 bg-green bg-opacity-50 shadow-xl ">
+        <div className="card w-100 bg-green bg-opacity-100 shadow-xl ">
   <figure className="px-10 pt-10">
     <img src={Program1} alt="Shoes" className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title font-bold text-black text-2xl">PELATIHAN PEMBUATAN MARKET PLACE</h2>
+    <h2 className="hover:underline card-title font-bold text-black text-2xl">PELATIHAN MARKET PLACE</h2>
     <p className="text-black">Siswa kompetensi keahlian PPLG (Perkembangan Perangkat Lunak Gim) mendapatkan Pelatihan Pembuatan Project Market Pleace dengan Pembicara MR.Jack</p>
     
   </div>
 </div>
 {/* kotak */}
-<div className="card w-100 bg-green bg-opacity-50 shadow-xl">
+<div className="card w-100 bg-green bg-opacity-100 shadow-xl">
   <figure className="px-10 pt-10">
     <img src={Program2} alt="Shoes" className="rounded-xl " />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title font-bold text-2xl text-black">KUNJUNGAN BOS BESAR PT.BODHA</h2>
+    <h2 className="hover:underline card-title font-bold text-2xl text-black">KUNJUNGAN BOS BESAR PT.BODHA</h2>
     <p className="text-black">Siswa kompetensi keahlian PPLG (Perkembangan Perangkat Lunak Gim) mendapatkan pengarahan industri oleh PT Bodha Dharmajaya Aryadhana (BDA)....</p>
     
   </div>
