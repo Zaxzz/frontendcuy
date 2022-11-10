@@ -43,15 +43,33 @@ const About = () => {
         <div class="hero min-h-screen">
           <div class="hero-content">
             <div className="grid grid-cols-3 gap-4">
-              <img src={html} alt="About"/>
-              <img src={css} alt="About"/>
-              <img src={js} alt="About"/>
-              <img src={php} alt="About"/>
-              <img src={vscode} alt="About"/>
-              <img src={figma} alt="About"/>
-              <img src={flutter} alt="About"/>
-              <img src={unreal} alt="About"/>
-              <img src={unity} alt="About"/>
+              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+                <img src={html} alt="HTML"/>
+              </div>
+              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+                <img src={css} alt="CSS"/>
+              </div>
+              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+                <img src={js} alt="JS"/>
+              </div>
+              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+                <img src={php} alt="PHP"/>
+              </div>
+              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+                <img src={vscode} alt="VSCODE"/>
+              </div>
+              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+                <img src={figma} alt="FIGMA"/>
+              </div>
+              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+                <img src={flutter} alt="FLUTTER"/>
+              </div>
+              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+                <img src={unreal} alt="UNREAL"/>
+              </div>
+              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+                <img src={unity} alt="UNITY"/>
+              </div>
             </div>
           </div>
         </div>
