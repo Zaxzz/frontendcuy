@@ -1,6 +1,7 @@
 import Infoi1 from "./asset/info1.png"
 import Infoi2 from "./asset/info2.png"
 import Infoi3 from "./asset/info3.png"
+import React from "react"
 
 const Info = () => {
     return   ( 
