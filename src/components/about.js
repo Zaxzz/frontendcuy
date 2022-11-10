@@ -1,13 +1,13 @@
-import about from "../assets/about.png";
-import css from "../assets/css.png";
-import figma from "../assets/figma.png";
-import flutter from "../assets/flutter.png";
-import html from "../assets/html.png";
-import js from "../assets/js.png";
-import php from "../assets/php.png";
-import unity from "../assets/unity.png";
-import unreal from "../assets/unreal.png";
-import vscode from "../assets/vscode.png";
+import about from "./assets/about.png";
+import css from "./assets/css.png";
+import figma from "./assets/figma.png";
+import flutter from "./assets/flutter.png";
+import html from "./assets/html.png";
+import js from "./assets/js.png";
+import php from "./assets/php.png";
+import unity from "./assets/unity.png";
+import unreal from "./assets/unreal.png";
+import vscode from "./assets/vscode.png";
 
 const About = () => {
   return (
