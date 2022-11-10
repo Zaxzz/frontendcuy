@@ -3,6 +3,7 @@ import FB from "./asset/fb.png"
 import TW from "./asset/tw.png"
 import IG from "./asset/ig.png"
 import YT from "./asset/yt.png"
+import React from "react"
 
 const Kontak = () => {
     return (
