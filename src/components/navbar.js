@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import PPLG from "./asset/PPLG.png"
 
 const Navbar = () => {
@@ -20,12 +21,12 @@ const Navbar = () => {
 </div>
   <div className="text-black flex-none text-center bg-green">
           <ul className="menu menu-horizontal p-0">
-            <li><a>Beranda</a></li>
-            <li><a>Profil</a></li>
-            <li><a>Program</a></li>
-            <li><a>About</a></li>
-            <li><a>Galeri</a></li>
-            <li><a>Kontak</a></li>
+            <li><Link to="button" className="active" smooth={true} duration={1000}><a>Beranda</a></Link></li>
+            <li><Link to="profil" smooth={true} duration={1000}><a>Profil</a></Link></li>
+            <li><Link to="program" smooth={true} duration={1000}><a>Program</a></Link></li>
+            <li><Link to="about" smooth={true} duration={1000}><a>About</a></Link></li>
+            <li><Link to="galeri" smooth={true} duration={1000}><a>Galeri</a></Link></li>
+            <li><Link to="kontak" smooth={true} duration={1000}><a>Kontak</a></Link></li>
             <li tabIndex={0}>
               <a>
                 Info

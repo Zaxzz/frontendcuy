@@ -4,7 +4,7 @@ import Infoi3 from "./asset/info3.png"
 
 const Info = () => {
     return   ( 
-        <div className="bg-white">
+        <div id="info">
   <div className="grid h-32 bg-green bg-opacity-40 text-center rounded-none rounded-bl-lg rounded-tr-lg place-items-center text-black font-bold  text-opacity-100">
     <h1 className="text-5xl ">
       Info

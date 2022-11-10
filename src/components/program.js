@@ -5,7 +5,7 @@ import Program2 from"./asset/program2.png"
 const Program = () => {
     return   (
       
-    <div className="bg-white">
+    <div id="program">
   <div className="grid h-32 bg-green bg-opacity-40 text-center rounded-none rounded-bl-lg rounded-tr-lg place-items-center text-black font-bold  text-opacity-100">
     <h1 className="text-5xl ">
       Program
@@ -27,11 +27,9 @@ const Program = () => {
     <img src={Program1} alt="Shoes" className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title font-bold text-2xl">PELATIHAN PEMBUATAN MARKET PLACE</h2>
-    <p>Siswa kompetensi keahlian PPLG (Perkembangan Perangkat Lunak Gim) mendapatkan Pelatihan Pembuatan Project Market Pleace dengan Pembicara MR.Jack</p>
-    <div className="card-actions">
-      <button className="btn bg-white mr-40 w-50 text-xs text-green-500 border-none hover:bg-grey">Baca selengkapnya...</button>
-    </div>
+    <h2 className="card-title font-bold text-black text-2xl">PELATIHAN PEMBUATAN MARKET PLACE</h2>
+    <p className="text-black">Siswa kompetensi keahlian PPLG (Perkembangan Perangkat Lunak Gim) mendapatkan Pelatihan Pembuatan Project Market Pleace dengan Pembicara MR.Jack</p>
+    
   </div>
 </div>
 {/* kotak */}
@@ -40,11 +38,9 @@ const Program = () => {
     <img src={Program2} alt="Shoes" className="rounded-xl " />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title font-bold text-2xl">KUNJUNGAN BOS BESAR PT.BODHA</h2>
-    <p>Siswa kompetensi keahlian PPLG (Perkembangan Perangkat Lunak Gim) mendapatkan pengarahan industri oleh PT Bodha Dharmajaya Aryadhana (BDA)....</p>
-    <div className="card-actions">
-      <button className="btn bg-white mr-62 w-50 text-xs text-green-500 border-none hover:bg-grey">Baca selengkapnya...</button>
-    </div>
+    <h2 className="card-title font-bold text-2xl text-black">KUNJUNGAN BOS BESAR PT.BODHA</h2>
+    <p className="text-black">Siswa kompetensi keahlian PPLG (Perkembangan Perangkat Lunak Gim) mendapatkan pengarahan industri oleh PT Bodha Dharmajaya Aryadhana (BDA)....</p>
+    
   </div>
 </div>
 </div>

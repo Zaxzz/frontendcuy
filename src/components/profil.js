@@ -3,7 +3,7 @@ import Profil1 from "./asset/profil.png"
 const Profil = () => {
     return (
     
-       <div className="bg-fixed bg-white hero min-h-screen" style={{ backgroundImage: `url("https://i.top4top.io/p_2502kji0f1.png")` }}>
+<div id="profil">
          <div className="flex flex-col w-full">
   <div className="grid h-32 bg-green bg-opacity-40 text-center rounded-none rounded-bl-lg rounded-tr-lg place-items-center text-black font-bold  text-opacity-100">
     <h1 className="text-5xl ">
@@ -21,7 +21,7 @@ const Profil = () => {
         </div>
       </div>
       </div>
-      </div>
+     </div>
  
     );
 }

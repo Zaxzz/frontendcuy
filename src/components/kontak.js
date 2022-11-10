@@ -1,8 +1,12 @@
 import PPLG from "./asset/PPLG.png"
+import FB from "./asset/fb.png"
+import TW from "./asset/tw.png"
+import IG from "./asset/ig.png"
+import YT from "./asset/yt.png"
 
 const Kontak = () => {
     return (
-    <div className="bg-white hero-h-screen bg-cover" style={{backgroundImage: `url("https://i.top4top.io/p_2502kji0f1.png")`}}>
+    <div id="kontak">
        <div>
             <div>
             <h1 className="pt-15 text-5xl text-center text-black py-5 font-bold">Kontak Kami</h1>
@@ -21,17 +25,17 @@ const Kontak = () => {
       <h4 className="pt-1 text-black font-bold">08XX-XXXXXX</h4>
 
       <ul className="menu menu-horizontal p-0">
-      <div class="h-10 w-10 pt-5 mx-0 hover:scale-150">
-      <img src=""/>
+      <div class="btn hover:bg-transparent bg-transparent bg-opacity-40 border-none pt-5 mx-0 hover:scale-150">
+      <img className="w-full h-full" src={FB}/>
       </div>
-      <div className="h-10 w-10 pt-5 mx-1 hover:scale-150">
-      <img src=""/>
+      <div className="btn hover:bg-transparent bg-transparent bg-opacity-40 border-none pt-5 mx-0 hover:scale-150">
+      <img className="w-full h-full" src={TW}/>
       </div>
-      <div className="h-9 w-9 pt-6 mx-0 hover:scale-150">
-      <img src=""/>
+      <div className="btn hover:bg-transparent bg-transparent bg-opacity-40 border-none pt-5 mx-0 hover:scale-150">
+      <img className="w-full h-full" src={IG}/>
       </div>
-      <div className="h-9 w-9 pt-6 mx-2 hover:scale-150">
-      <img src=""/>
+      <div className="btn hover:bg-transparent bg-transparent bg-opacity-40 border-none pt-5 mx-0 hover:scale-150">
+      <img className="w-full h-full" src={YT}/>
       </div>
       </ul>
     </div>
@@ -45,15 +49,15 @@ const Kontak = () => {
       </div>
 
         <div className="form-control">
-          <input type="text" placeholder="Nama" className="input input-bordered" />
+          <input type="text" placeholder="Nama" className="bg-grey input input-bordered" />
         </div>
 
         <div className="form-control">
-          <input type="Email" placeholder="Email" className="input input-bordered" />
+          <input type="Email" placeholder="Email" className="bg-grey input input-bordered" />
         </div>
 
         <div className="form-control">
-          <input type="text" placeholder="Pesan" className="input input-bordered h-40" />
+          <input type="text" placeholder="Pesan" className="bg-grey input input-bordered h-40" />
         </div>
 
         <div className="form-control mt-3 box-border h-10 w-28">

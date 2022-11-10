@@ -15,11 +15,20 @@ const App = () => {
     <div className=' object-cover text-cover'>
       <Navbar/>
       <Button/>
+      <div className="content bg-fixed bg-white" style={{backgroundImage: `url("https://i.top4top.io/p_2502kji0f1.png")`}}>
       <Profil/>
+      
       <Program/>
+    
       <Galeri/>
+      
       <Info/>
+    
       <Kontak/>
+      
+      <Footer/>
+    
+     </div>
     </div>
   );
 }
