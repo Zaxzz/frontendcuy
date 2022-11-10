@@ -1,30 +1,38 @@
-
+import React from "react";
+import { Link } from "react-scroll";
+import About from "./about";
+import Footer from "./footer";
+import Galeri from "./galeri";
+import Info from "./info";
+import Kontak from "./kontak";
+import Landing from "./landing";
+import Navbar from "./navbar";
+import Profil from "./profil";
+import Program from "./program";
 
 const Button = () => {
-    return (
-      <div id="button">
-      <div className="hero min-h-screen bg-white">
-      <div className="hero min-h-screen bg-whit" style={{ backgroundImage: `url("https://c.top4top.io/p_2504no5o11.png")` }}>
-<div className="hero-overlay bg-opacity-60"></div>
-<div className="hero-content text-center text-neutral-content ">
-    <div className="absolute bottom-0 left-10">
-  <div className=" bg-opacity-60 rounded-none rounded-tr-lg rounded-bl-lg card w-full shadow-2xl bg-green">
-  <div className="card-body">
-    <div className="form-control">
-      <div className="label flex  flex-col">
-        <div className="label-text font-bold  text-white text-3xl">PENGEMBANGAN PERANGKAT</div>
-        <div className="label-text font-bold  text-white text-3xl mr-40"> LUNAK DAN GAME</div>
-        </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
 
-);
-}
+    return (
+       
+            
+               
+        <div>
+            <div className="text-black flex-none text-center bg-green">
+          <ul className="menu menu-horizontal p-0">
+           <li><Link to="landing" className="bg-green text-black active hover:bg-green1" smooth={true} duration={1000}>Beranda</Link></li>
+            <li><Link to="profil" className="hover:bg-green1" smooth={true} duration={1000}>Profil</Link></li>
+            <li><Link to="program" className="hover:bg-green1" smooth={true} duration={1000}>Program</Link></li>
+            <li><Link to="about" className="hover:bg-green1" smooth={true} duration={1000}>About</Link></li>
+            <li><Link to="galeri" className="hover:bg-green1" smooth={true} duration={1000}>Galeri</Link></li>
+            <li><Link to="kontak" className="hover:bg-green1" smooth={true} duration={1000}>Kontak</Link></li>      
+            <li><Link to="info" className="hover:bg-green1" smooth={true} duration={1000}>Info</Link></li>
+          </ul>
+        </div>
+        </div>
+       
+       
+    );
+  }
+  
 
 export default Button;
