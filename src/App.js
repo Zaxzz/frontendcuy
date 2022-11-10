@@ -20,6 +20,8 @@ const App = () => {
       
       <Program/>
     
+      <About/>
+    
       <Galeri/>
       
       <Info/>
