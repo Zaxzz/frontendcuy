@@ -20,33 +20,36 @@ const Info = () => {
         <div className="py-10 px-9 grid grid-cols-3 gap-4" >
         <div className="card w-96 bg-white shadow-xl">
   <figure><img src={Infoi1} alt="Shoes" /></figure>
-  <div className="card-body">
-    <h2 className="card-title ">Shoes!</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
+  <div className="card-body ml-8">
+  <h2 className="card-title underline text-green1">PT Bodha </h2>
+    <div className="mt-5">
+    <p >PT Mahkota Girl </p>
+    <p> Membutuhkan 25 Front</p>
+    <p>end dari SMKN 2 MGL</p>
     </div>
   </div>
 </div>
 {/* kotak */}
 <div className="card w-96 bg-white shadow-xl">
   <figure><img src={Infoi2} alt="Shoes" /></figure>
-  <div className="card-body">
-    <h2 className="card-title">Shoes!</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
+  <div className="card-body ml-8">
+    <h2 className="card-title underline text-green1">PT Mahkota Girl </h2>
+    <div className="mt-5">
+    <p >PT Mahkota Girl </p>
+    <p> Membutuhkan 25 Front</p>
+    <p>end dari SMKN 2 MGL</p>
     </div>
   </div>
 </div>
 {/* kotak */}
-<div className="card w-96 bg-white shadow-xl">
+<div className="card w-96 bg-white shadow-x ">
   <figure><img src={Infoi3} alt="Shoes" /></figure>
-  <div className="card-body">
-    <h2 className="card-title">Shoes!</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
+  <div className="card-body ml-8">
+    <h2 className="card-title underline text-green1">PT Carakan</h2>
+    <div className="mt-5">
+    <p >PT carakan</p>
+    <p> Membutuhkan 5 UI/UX </p>
+    <p>dari SMKN 2 MGL</p>
     </div>
   </div>
 </div>
