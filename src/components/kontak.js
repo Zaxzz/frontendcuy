@@ -42,7 +42,7 @@ const Kontak = () => {
     </div>
 </div>
 
-    <div className="shadow-none card flex-shrink-0 w-full max-w-lg shadow-2xl bg-white">
+    <div className="card flex-shrink-0 w-full max-w-lg shadow-2xl bg-white">
       <div className="card-body">
       <div className="form-control">
           <label className="hero-content font-bold text-3xl text-black text-center label">Pesan

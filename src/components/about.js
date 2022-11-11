@@ -11,18 +11,22 @@ import vscode from "./asset/vscode.png";
 
 const About = () => {
   return (
-       <div id="about">
-        <div className="grid h-32 bg-green bg-opacity-40 text-center rounded-none rounded-bl-lg rounded-tr-lg place-items-center text-black font-bold  text-opacity-100">
-    <h1 className="text-5xl ">
-      About
-    </h1>
-    <h1 className="mb-2">
-    Materi yang telah diberikan guru
-    </h1>
-  </div>
+    <div id="about">
+      <div className="grid h-32 bg-green bg-opacity-40 text-center rounded-none rounded-bl-lg rounded-tr-lg place-items-center text-black font-bold  text-opacity-100">
+        <h1 className="text-5xl ">About</h1>
+        <h1 className="mb-2">Materi yang telah diberikan guru</h1>
+      </div>
+
+      <div class="flow-root ...">
+      <div class="my-12">
+        
+      
+      <div class="flow-root">
+      <div class="-my-28">
+
         <div class="hero min-h-screen">
           <div class="hero-content flex-col lg:flex-row-reverse">
-            <img src={about} alt="About"/>
+            <img className="pl-28" src={about} alt="About"/>
             <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-green border-2 rounded-3xl border-black text-black">
               <div class="card-body">
                 <p>
@@ -34,7 +38,12 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="items-center text-center opacity-70 rounded-none rounded-tr-lg rounded-bl-lg card w-full">
+
+      </div>
+      </div>
+
+
+        <div className="items-center text-center bg-opacity-70 rounded-none rounded-tr-lg rounded-bl-lg card w-full">
           <div className="card-body">
             <label className="label">
               <span className="label-text font-bold text-5xl text-black">What We Learn</span>
@@ -43,38 +52,42 @@ const About = () => {
         </div>
         <div class="hero min-h-screen">
           <div class="hero-content">
-            <div className="grid grid-cols-3 gap-4">
-              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+            <div className="grid grid-cols-3 gap-16">
+              <div className="bg-grey1 h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
                 <img src={html} alt="HTML"/>
               </div>
-              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+              <div className="bg-grey1 h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
                 <img src={css} alt="CSS"/>
               </div>
-              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+              <div className="bg-grey1 h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
                 <img src={js} alt="JS"/>
               </div>
-              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+              <div className="bg-grey1 h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
                 <img src={php} alt="PHP"/>
               </div>
-              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+              <div className="bg-grey1 h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
                 <img src={vscode} alt="VSCODE"/>
               </div>
-              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+              <div className="bg-grey1 h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
                 <img src={figma} alt="FIGMA"/>
               </div>
-              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+              <div className="bg-grey1 h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
                 <img src={flutter} alt="FLUTTER"/>
               </div>
-              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+              <div className="bg-grey1 h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
                 <img src={unreal} alt="UNREAL"/>
               </div>
-              <div className="bg-krem h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
+              <div className="bg-grey1 h-64 w-56 rounded-lg border-solid border-black border-8 items-center justify-center flex">
                 <img src={unity} alt="UNITY"/>
               </div>
             </div>
           </div>
         </div>
+        
       </div>
+      </div>
+    </div>
+
     );
 }
 
