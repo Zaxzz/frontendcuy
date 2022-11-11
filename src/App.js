@@ -14,7 +14,7 @@ import Landing from './components/landing';
 const App = () => {
   return (
     <div className=' object-cover text-cover'>
-      <div className='fixed w-full z-40'>
+       <div className='border-b-2 border-black fixed w-full z-40'>
       <Navbar/>
       <Button/>
       </div>
