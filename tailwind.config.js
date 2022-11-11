@@ -7,7 +7,7 @@ module.exports = {
         'green': '#79E6AE',
         'grey' : '#D8D7D7',
         'green1' : '#1BB566',
-        'krem' : '#E5E5E5'
+        'grey1' : '#E5E5E5'
     },
     borderRadius: {
       'lg': '40px',
