@@ -14,9 +14,12 @@ import Landing from './components/landing';
 const App = () => {
   return (
     <div className=' object-cover text-cover'>
+      <div className='fixed w-full z-40'>
       <Navbar/>
       <Button/>
+      </div>
       <Landing/>
+
       <div className="content bg-fixed bg-white" style={{backgroundImage: `url("https://i.top4top.io/p_2502kji0f1.png")`}}>
       <Profil/>
       
