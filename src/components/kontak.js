@@ -27,22 +27,26 @@ const Kontak = () => {
 
       <ul className="menu menu-horizontal p-0">
       <div class="btn hover:bg-transparent bg-transparent bg-opacity-40 border-none pt-5 mx-0 hover:scale-150">
-      <img className="w-full h-full" src={FB}/>
+      <a href={"https://m.facebook.com/profile.php?id=406604126210281"}>
+      <img className="w-8 h-8" src={FB} /> </a>
       </div>
       <div className="btn hover:bg-transparent bg-transparent bg-opacity-40 border-none pt-5 mx-0 hover:scale-150">
-      <img className="w-full h-full" src={TW}/>
+      <a href={"https://twitter.com/smkn2magelango"}>
+      <img className="w-8 h-8" src={TW}/> </a>
       </div>
       <div className="btn hover:bg-transparent bg-transparent bg-opacity-40 border-none pt-5 mx-0 hover:scale-150">
-      <img className="w-full h-full" src={IG}/>
+      <a href={"https://instagram.com/smkn2magelang.official?igshid=YzdkMWQ2MWU="}>
+      <img className="w-8 h-8" src={IG}/> </a>
       </div>
       <div className="btn hover:bg-transparent bg-transparent bg-opacity-40 border-none pt-5 mx-0 hover:scale-150">
-      <img className="w-full h-full" src={YT}/>
+      <a href={"https://www.youtube.com/channel/UCM_c-UYNBOEW6oQn9GNmOhA/videos?app=desktop&view=0&sort=da&flow=grid"}>
+      <img className="w-8 h-8" src={YT}/> </a>
       </div>
       </ul>
     </div>
 </div>
 
-    <div className="card flex-shrink-0 w-full max-w-lg shadow-2xl bg-white">
+    <div className="shadow-none card flex-shrink-0 w-full max-w-lg shadow-2xl bg-white">
       <div className="card-body">
       <div className="form-control">
           <label className="hero-content font-bold text-3xl text-black text-center label">Pesan
