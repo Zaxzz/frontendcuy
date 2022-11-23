@@ -27,7 +27,8 @@ const Program = () => {
     <img src={Program1} alt="Shoes" className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="hover:underline card-title font-bold text-black text-2xl">PELATIHAN MARKET PLACE</h2>
+    <a href={"https://smkn2mgl.sch.id/category/news-skanida"}>
+    <h2 className="hover:underline card-title font-bold text-black text-2xl">PELATIHAN MARKET PLACE</h2> </a>
     <p className="text-black">Siswa kompetensi keahlian PPLG (Perkembangan Perangkat Lunak Gim) mendapatkan Pelatihan Pembuatan Project Market Pleace dengan Pembicara MR.Jack</p>
     
   </div>
@@ -38,7 +39,8 @@ const Program = () => {
     <img src={Program2} alt="Shoes" className="rounded-xl " />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="hover:underline card-title font-bold text-2xl text-black">KUNJUNGAN BOS BESAR PT.BODHA</h2>
+    <a href={"https://smkn2mgl.sch.id/category/kabar-skanida"}>
+    <h2 className="hover:underline card-title font-bold text-2xl text-black">KUNJUNGAN BOS BESAR PT.BODHA</h2> </a>
     <p className="text-black">Siswa kompetensi keahlian PPLG (Perkembangan Perangkat Lunak Gim) mendapatkan pengarahan industri oleh PT Bodha Dharmajaya Aryadhana (BDA)....</p>
     
   </div>
