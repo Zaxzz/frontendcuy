@@ -21,36 +21,42 @@ const Info = () => {
         <div className="card w-96 bg-white ">
   <figure><img className="shaadow-none" src={Infoi1} alt="Shoes" /></figure>
   <div className="card-body ml-8">
+  <a href={"https://bda.co.id/"}>
   <h2 className="card-title underline text-green1">PT Bodha </h2>
     <div className="mt-5">
-    <p >PT Mahkota Girl </p>
+    <p>PT Bodha </p> 
     <p> Membutuhkan 25 Frontend</p>
     <p>dari SMKN 2 MGL</p>
     </div>
+    </a>
   </div>
 </div>
 {/* kotak */}
 <div className="card w-96 bg-white ">
   <figure><img className="shadow-none" src={Infoi2} alt="Shoes" /></figure>
   <div className="card-body ml-8">
+    <a href="https://www.bukalapak.com/p/rumah-tangga/home-stuff/c4zs1w-jual-mahkota-girl-mahkota-bulu-crown-bridal-shower-mahkota-birthday">
     <h2 className="card-title underline text-green1">PT Mahkota Girl </h2>
     <div className="mt-5">
     <p >PT Mahkota Girl </p>
     <p> Membutuhkan 25 Frontend</p>
     <p>dari SMKN 2 MGL</p>
     </div>
+    </a>
   </div>
 </div>
 {/* kotak */}
 <div className="card w-96 bg-white ">
   <figure><img className="shadow-none" src={Infoi3} alt="Shoes" /></figure>
   <div className="card-body ml-8">
+    <a href="https://carakan.id/">
     <h2 className="card-title underline text-green1">PT Carakan</h2>
     <div className="mt-5">
-    <p >PT carakan</p>
+    <p >PT Carakan</p>
     <p> Membutuhkan 5 UI/UX </p>
     <p>dari SMKN 2 MGL</p>
     </div>
+    </a>
   </div>
 </div>
 </div>
